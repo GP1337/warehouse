@@ -1,6 +1,6 @@
 package com.warehouse.service;
 
-import com.warehouse.dto.ProductDto;
+import com.warehouse.domain.dto.ProductDto;
 
 import java.util.List;
 

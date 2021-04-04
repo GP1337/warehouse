@@ -1,6 +1,6 @@
 package com.warehouse.controller;
 
-import com.warehouse.dto.operation.MovementDto;
+import com.warehouse.domain.dto.operation.MovementDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,14 +1,16 @@
-package com.warehouse.dto;
+package com.warehouse.domain.dto;
 
-import com.warehouse.model.Unit;
+import com.warehouse.domain.enums.Unit;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.UUID;
 
 @Getter
 @Setter
 public class ProductDto {
 
-    private int id;
+    private UUID id;
     private String name;
     private Unit unit;
 

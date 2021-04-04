@@ -1,4 +1,4 @@
-package com.warehouse.model;
+package com.warehouse.domain.enums;
 
 public enum Unit {
 

@@ -1,8 +1,8 @@
 package com.warehouse.controller;
 
-import com.warehouse.dto.BalanceDto;
-import com.warehouse.dto.ProductDto;
-import com.warehouse.dto.WarehouseDto;
+import com.warehouse.domain.dto.BalanceDto;
+import com.warehouse.domain.dto.ProductDto;
+import com.warehouse.domain.dto.WarehouseDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

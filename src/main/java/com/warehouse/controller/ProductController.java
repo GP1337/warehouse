@@ -1,6 +1,6 @@
 package com.warehouse.controller;
 
-import com.warehouse.dto.ProductDto;
+import com.warehouse.domain.dto.ProductDto;
 import com.warehouse.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
