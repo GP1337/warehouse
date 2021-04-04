@@ -1,4 +1,4 @@
-package com.warehouse.service;
+package com.warehouse.service.product;
 
 import com.warehouse.domain.dto.ProductDto;
 import com.warehouse.repository.ProductRepository;
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class ProductServiceImpl implements ProductService {
@@ -24,7 +25,8 @@ public class ProductServiceImpl implements ProductService {
 
     }
 
-    public ProductDto getById(int Id){
+    @Override
+    public ProductDto getById(UUID Id){
 
         return new ProductDto();
 
@@ -36,12 +38,12 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ProductDto update(int id, ProductDto productDTO) {
+    public ProductDto update(UUID id, ProductDto productDTO) {
         return productDTO;
     }
 
     @Override
-    public void delete(int id) {
+    public void delete(UUID id) {
 
     }
 
