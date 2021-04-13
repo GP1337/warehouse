@@ -11,10 +11,7 @@ import java.util.UUID;
 @Setter
 @Entity
 @Table(name = "products")
-public class Product {
-
-    @Id
-    private UUID id = UUID.randomUUID();
+public class Product extends  BaseEntity{
 
     @Column(name = "name")
     private String name;
